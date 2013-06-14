@@ -2,7 +2,7 @@
 AUTOMAKE_OPTIONS = foreign
 ACLOCAL_AMFLAGS = -I build-scripts
 
-SUBDIRS = libtwolame frontend simplefrontend doc tests
+SUBDIRS = libtwolame frontend simplefrontend tests
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = twolame.pc
